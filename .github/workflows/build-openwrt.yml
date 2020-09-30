@@ -25,13 +25,13 @@ env:
   TZ: Asia/Shanghai
 
 on:
-  schedule:
-    - cron: 0 8 */5 * *
+#  schedule:
+#   - cron: 0 8 */5 * *
 #  release:
-#    types: published
-#  push:
-#    branches:
-#      - master
+    types: published
+  push:
+    branches:
+      - master
 #    paths:
 #      - '.config'
 #  watch:
